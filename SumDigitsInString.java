@@ -13,7 +13,7 @@ public class SumDigitsInString {
     	public int doWork(String theString) {
     		int sum = 0;
     		int error = 0;
-    		String[] stringArray = {"on3tw0thr33fourf1v3", "s1xs3v3n31gh7n1n3t3n"}
+    		String[] stringArray = {"on3tw0thr33fourf1v3", "s1xs3v3n31gh7n1n3t3n"};
     		for (int i=0; i<stringArray.length(); i++) {
     			if (i.isDigit() == true) {
     				sum = sum + i;
